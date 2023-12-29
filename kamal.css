@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;    
+}
+
+
+/* full conataint   including all */
+
+.container{
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(46, 167, 237);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.contentbox{
+    background-color: azure;
+    height: 510px;
+    width: 320px;
+
+    border-radius: 20px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+
+.contentbox img{
+    height: 30%;
+    width: 100%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.contentbox p{
+    padding-left: 35px;
+    padding-right: 25px;
+
+    font-family: cursive;
+    text-align: center;
+}
+
+.plan{
+    width: 85%;
+    height: 10%;
+    background-color: rgb(148, 225, 240);
+
+    border-radius: 10px;
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.plan img{
+    height: 70%;
+    width: 15%;
+}
+
+.plan a{
+    text-decoration: none;
+}
+
+.buy{
+    width: 85%;
+    height: 10%;
+    background-color:blue;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    box-shadow: 1px 3px 2px rgb(90, 83, 83);
+
+    transition: all 0.3s;
+}
+
+
+.buy:hover{
+    transform: scale(1.1);
+}
+
+.cancle a{
+    text-decoration: none; 
+    display: flex;
+    transition: all 0.3s;
+
+}
+
+.cancle a:hover{
+    transform: scale(1.2);
+}
+
+.change{
+    transition: all .2s;
+}
+
+.change:hover{
+    transform: scale(1.1);
+}
+
+
+
+
+.buy p a{
+    text-decoration: none;
+    color: black;
+}
